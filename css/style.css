@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+}
+
+.tenor-gif-embed {
+  margin-bottom: 150px;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main img {
+  width: 20%;
+}
+
+.yes-btn {
+  background-color: rgb(2, 201, 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.1s;
+  width: 100%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.yes-btn:hover {
+  background-color: rgb(1, 160, 1);
+  cursor: pointer;
+  color: #fff;
+}
+
+.no-btn {
+  background-color: rgb(249, 55, 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.1s;
+  width: 100%;
+  margin-left: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.no-btn:hover {
+  background-color: rgb(215, 3, 3);
+  cursor: pointer;
+  color: #fff;
+}
+
+.main2 p {
+  font-size: 2.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
